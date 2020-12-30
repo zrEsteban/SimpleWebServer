@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>My first presentation in reveal and orgmode</title>
+<meta name="author" content="(Esteban Zamora)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/simple.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">My first presentation in reveal and orgmode</h1><h2 class="author">Esteban Zamora</h2><h2 class="email"><a href="mailto:zr.esteban@gmail.com">zr.esteban@gmail.com</a></h2><p class="date">Created: 2020-11-27 vie 18:07</p>
+</section>
+
+<section>
+<section id="slide-orgb1f95f7">
+<h2 id="orgb1f95f7">Slide 1</h2>
+<ul>
+<li><p>
+this is the first slide
+</p>
+
+<p>
+Esto deberia ser un texto mas o menos largo cosa de que ocupe el mayor espacio posible en la pantalla.
+</p></li>
+
+</ul>
+
+<p>
+Y luego otro texto tambien mas o menos largo cosa que tambien ocupe el mayor espacio en la pantalla
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgf46c008">
+<h2 id="orgf46c008">Slide 2</h2>
+<p class="fragment (roll-in)">
+This is the second slide 
+</p>
+<ul>
+<li class="fragment appear">whit a sub heading</li>
+<li class="fragment appear">or two</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org232c313">
+<h2 id="org232c313">Slide 3</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><span class="underline">this</span></th>
+<th scope="col" class="org-left"><i>slide</i></th>
+<th scope="col" class="org-left"><b>has</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">a</td>
+<td class="org-left">table</td>
+<td class="org-left">in</td>
+</tr>
+
+<tr>
+<td class="org-left">it</td>
+<td class="org-left">ok</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+</section>
+<section>
+<section id="slide-org7e9a42e">
+<h2 id="org7e9a42e">Probando entorno de codigo</h2>
+<div class="org-src-container">
+
+<pre  class="src src-python"><code trim><span style="color: #a020f0;">import</span> numpy <span style="color: #a020f0;">as</span> np
+<span style="color: #a020f0;">print</span>(<span style="color: #8b2252;">"HELLO"</span>)
+<span style="color: #a0522d;">span</span> = <span style="color: #483d8b;">range</span>(0,10,1)
+<span style="color: #a0522d;">arr</span>=[]
+<span style="color: #a020f0;">for</span> i <span style="color: #a020f0;">in</span> span:
+arr.append(i)
+
+<span style="color: #a020f0;">print</span>(arr) 
+</code></pre>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org624c70c">
+<h2 id="org624c70c">Insertando una imagen</h2>
+
+<div id="orgc759739" class="figure">
+<p><img src="../img/ScreenShot.png" alt="ScreenShot.png" />
+</p>
+<p><span class="figure-number">Figure 1: </span>This is the caption for the next figure link (or table)</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org181803c">
+<h2 id="org181803c">Video de YouTube</h2>
+<p>
+<iframe width="594" height="420" src="https://www.youtube.com/embed/Rzw_s4ETxLU" frameborder="0" allowfullscreen></iframe>
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org8d2ab22">
+<h2 id="org8d2ab22">Slide 7</h2>
+<div>
+\begin{equation}                        
+x=\sqrt{b}                              
+\end{equation}           
+
+</div>
+
+<p>
+If \(a^2=b\) and \( b=2 \), then the solution must be
+either \[ a=+\sqrt{2} \] or \[ a=-\sqrt{2} \].
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org1b1c9cc">
+<h2 id="org1b1c9cc">Slide 8</h2>
+<aside class="notes">
+<p>
+Aca deberia ir un grafico
+</p>
+
+</aside>
+
+  <canvas id="myChart" width="300" height="300"></canvas>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script>  
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+          labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+          datasets: [{
+              label: 'My First dataset',
+              backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45]
+        }]
+    },
+
+      // Configuration options go here
+    options: {}
+});
+</script>
+
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+width:1800, height:1800, margin: 0.1, minScale:0.2, maxScale:2.0, slideNumber:true, transition: 'cube',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+      dependencies: [
+	  
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }]
+});
+</script>
+</body>
+</html>

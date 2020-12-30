@@ -1,0 +1,14 @@
+#+OPTIONS: toc:nil num:nil author:t date:t email:t title:nil
+
+#+TITLE: Welcome to web page's Esteban Zamora
+#+AUTHOR: Esteban Zamora
+#+EMAIL: zr.esteban@gmail.com
+
+* Secciones
+  -  [[./pages/index_chartjs.html][chart.js example]]
+  -  [[./pages/index_ok.html][Presentacion de Reveal]]
+  -  [[./pages/test.html][default page]]
+* CV
+  - [[./doc/CV.pdf][CV]]
+
+

@@ -1,0 +1,78 @@
+#+OPTIONS: toc:nil num:nil author:t date:t email:t
+#+REVEAL_INIT_OPTIONS: width:1800, height:1800, margin: 0.1, minScale:0.2, maxScale:2.0, slideNumber:true, transition: 'cube'
+
+#+REVEAL_THEME: simple
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_PLUGINS: (markdown)
+#+REVEAL_EXTERNAL_PLUGINS: {src: 'https://cdn.jsdelivr.net/npm/chart.js@2.8.0'},{src: 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js'}
+#+REVEAL_EXTRA_CSS: ./modifications.css
+
+#+TITLE: My first presentation in reveal and orgmode
+#+AUTHOR: Esteban Zamora
+#+EMAIL: zr.esteban@gmail.com
+
+** Slide 1
+
+  * this is the first slide
+
+    Esto deberia ser un texto mas o menos largo cosa de que ocupe el mayor espacio posible en la pantalla.
+
+  Y luego otro texto tambien mas o menos largo cosa que tambien ocupe el mayor espacio en la pantalla
+    
+** Slide 2 
+   #+ATTR_REVEAL: :frag (roll-in)
+   This is the second slide 
+   #+ATTR_REVEAL: :frag (appear)
+   * whit a sub heading
+   * or two
+
+** Slide 3
+   | _this_ | /slide/ | *has*  |
+   |--------+---------+--------|
+   | a      | table   | in     |
+   | it     | ok      |        |
+
+** Probando entorno de codigo 
+
+#+BEGIN_SRC python
+import numpy as np
+print("HELLO")
+span = range(0,10,1)
+arr=[]
+for i in span:
+arr.append(i)
+
+print(arr) 
+#+END_SRC
+
+** Insertando una imagen
+#+CAPTION: This is the caption for the next figure link (or table)
+#+NAME:   fig:SED-HR4049
+#+ATTR_ORG: :width 750
+[[./img/ScreenShot.png]]
+
+** Video de YouTube
+
+#+CAPTION: This is the caption for the next video yt link
+#+NAME:   yt:SED-HR4049
+[[yt:Rzw_s4ETxLU]]
+
+** Slide 7
+
+\begin{equation}                        
+x=\sqrt{b}                              
+\end{equation}           
+
+If $a^2=b$ and \( b=2 \), then the solution must be
+either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
+
+** Slide 8
+#+BEGIN_NOTES
+  Aca deberia ir un grafico
+#+END_NOTES
+
+#+REVEAL_HTML: <canvas id="myChart" width="400" height="400"></canvas>
+#+REVEAL_HTML: <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+#+REVEAL_HTML: <script> var ctx = document.getElementById('myChart').getContext('2d'); var myChart = new Chart(ctx, {type: 'line',data: {labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],datasets: [{label: 'My First dataset',backgroundColor: 'rgb(255, 99, 132)',borderColor: 'rgb(255, 99, 132)',data: [0, 10, 5, 2, 20, 30, 45]}]},options: {};}); </script>
+
+

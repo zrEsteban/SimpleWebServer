@@ -1,0 +1,53 @@
+% Created 2020-11-27 vie 00:41
+% Intended LaTeX compiler: pdflatex
+\documentclass[bigger]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usetheme{default}
+\author{Esteban Zamora}
+\date{}
+\title{Writing Beamer presentations in org-mode}
+\hypersetup{
+ pdfauthor={Esteban Zamora},
+ pdftitle={Writing Beamer presentations in org-mode},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+
+
+\section{Introduction}
+\label{sec:org2e05bdf}
+\subsection{A simple slide}
+\label{sec:orgb1091a6}
+This slide consists of some text with a number of bullet points:
+
+\begin{itemize}
+\item the first, very @important@, point!
+\item the previous point shows the use of the special markup which
+translates to the Beamer specific \emph{alert} command for highlighting
+text.
+\end{itemize}
+
+
+The above list could be numbered or any other type of list and may
+include sub-lists.
+\end{document}

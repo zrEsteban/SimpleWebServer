@@ -1,0 +1,6 @@
+#+OPTIONS: toc:nil num:nil author:t date:t email:t title:nil
+
+#+TITLE: Lista de Precios - Venta de Garage Esteban.
+
+
+#+HTML: <iframe width="594" height="420" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEd0JGoCBvWnseacmpgU8JI-pY8NcMoc0IU1knK19gItKG_Jvx8vzWRPaHzpxMwW49NsYZD4G7JD_S/pubhtml?gid=1517888306&amp;single=true&amp;widget=true&amp;headers=false"></iframe>

@@ -1,0 +1,83 @@
+#+OPTIONS: toc:nil num:nil author:t date:t email:t title:nil
+
+#+TITLE: Venta de Garage Esteban.
+#+AUTHOR: Esteban Zamora
+#+EMAIL: zr.esteban@gmail.com
+
+<<sec:home>>
+** Lista de Productos y precios
+
+| *Producto* | *Precio Mercado* (**) | *Precio Venta* (*) | *Imagen* |
+|------------+-----------------------+--------------------+----------|
+| Heladera   | $22,000               | $20,000            | [[fig:heladera][fotos]]    |
+| Lavarropa  | $39,000               | $33,000            | [[fig:lavarropa][fotos]]   |
++| Aire Acondicionado  | $35,000               | $25,000            |             |+
+
++| Cortinas           | $3,200                | $2,500             |             |+
+| Futon           | $6,500 | $5,000  | [[fig:futon]]      |
+| Escritorio      | $8,000 | $6,500  | [[fig:escritorio]] |
+| Colchon+Sommier |      0 | $10,000 | [[fig:sommier]]    |
+| Cocina          |      0 | $7,500  | [[fig:cocina]]     |
+(* ) Precios Conversables
+
+(** ) Precios de referencia (estimado) visto en Marcado Libre y en tiendas oficiales.
+
+#+HTML: <hr style="border: 1px dashed black;" />
+
+** Imagenes de Referencia
+
+*** Heladera
+
+#+NAME: fig:heladera
+#+ATTR_HTML: :width 594 :height 420
+[[../img/heladera1.jpg]]
+
+#+ATTR_HTML: :width 594 :height 420
+[[../img/heladera2.jpg]]
+
+#+ATTR_HTML: :width 594 :height 420
+[[../img/heladera3.jpg]]
+
+#+ATTR_HTML: :width 594 :height 420
+[[../img/Heladera4.jpg]]
+
+[[sec:home][Back Home]]
+
+#+HTML: <hr style="border: 1px dashed black;" />
+*** Lavarropas
+#+NAME: fig:lavarropa
+#+ATTR_HTML: :width 594 :height 420
+[[../img/lavarropa1.jpg]]
+
+#+ATTR_HTML: :width 594 :height 420
+[[../img/lavarropa2.jpg]]
+
+#+ATTR_HTML: :width 594 :height 420
+[[../img/lavarropa3.jpg]]
+
+[[sec:home][Back Home]]
+
+
+#+HTML: <hr style="border: 1px dashed black;" />
+*** Futon
+#+NAME: fig:futon
+#+ATTR_HTML: :width 594 :height 420
+[[../img/lavarropa3.jpg]]
+
+#+HTML: <hr style="border: 1px dashed black;" />
+*** Escritorio
+#+NAME: fig:escritorio
+#+ATTR_HTML: :width 594 :height 420
+[[../img/lavarropa3.jpg]]
+
+#+HTML: <hr style="border: 1px dashed black;" />
+*** Colchon + Sommier
+#+NAME: fig:sommier
+#+ATTR_HTML: :width 594 :height 420
+[[../img/lavarropa3.jpg]]
+
+#+HTML: <hr style="border: 1px dashed black;" />
+*** Cocina
+#+NAME: fig:cocina
+#+ATTR_HTML: :width 594 :height 420
+[[../img/lavarropa3.jpg]]
